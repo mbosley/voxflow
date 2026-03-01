@@ -8,11 +8,17 @@ This repo is the public, reusable core of a larger production workflow. It is de
 
 ## Current scope
 
-- Audio note ingestion patterns\n- Transcription adapters and confidence tagging\n- Context-aware action extraction\n- Conversation-safe response orchestration
+- Audio note ingestion patterns
+- Transcription adapters and confidence tagging
+- Context-aware action extraction
+- Conversation-safe response orchestration
 
 ## Near-term roadmap
 
-1. Ship a stable ingestion/transcription interface\n2. Add reference pipelines for iMessage/WhatsApp-style inputs\n3. Publish eval harness for transcript quality + action extraction\n4. Add lightweight demo app + CLI
+1. Ship a stable ingestion/transcription interface
+2. Add reference pipelines for iMessage/WhatsApp-style inputs
+3. Publish eval harness for transcript quality + action extraction
+4. Add lightweight demo app + CLI
 
 ## Related work
 
