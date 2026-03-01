@@ -12,6 +12,7 @@ This repo is the public, reusable core of a larger production workflow. It is de
 - Transcription adapters and confidence tagging
 - Context-aware action extraction
 - Conversation-safe response orchestration
+- Survey chatbot adapters (including Qualtrics runtime patterns)
 
 ## Near-term roadmap
 
@@ -23,6 +24,20 @@ This repo is the public, reusable core of a larger production workflow. It is de
 ## Related work
 
 - Private implementation roots: qualtrics-audio-chatbot, ops/cos-gateway (integration layer).
+
+## Qualtrics adapter
+
+A secure Qualtrics deployment template now lives in:
+
+- `adapters/qualtrics/README.md`
+- `adapters/qualtrics/qualtrics-chat-runtime.js`
+- `adapters/qualtrics/qualtrics-config.example.js`
+- `adapters/qualtrics/server-contract.md`
+
+Use this split:
+- Public repo: reusable runtime/UI/orchestration code
+- Private study repo: prompts, QID mappings, treatment scripts
+- Backend service: model keys + provider calls
 
 ## Status
 
